@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { devProjects, designProjects, ProjectProps } from "./projectDetails";
+import { devProjects, ProjectProps } from "./projectDetails";
 import { useState } from "react";
 
 const ProjectGrid = () => {
@@ -35,7 +35,6 @@ const ProjectGrid = () => {
               name={project.name}
               description={project.description}
               technologies={project.technologies}
-              github={project.github}
               demo={project.demo}
               image={project.image}
               available={project.available}
