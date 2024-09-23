@@ -59,6 +59,17 @@ const Hero = () => {
         </div>
       </div>
 
+      <div className="-mt-36 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-2 lg:py-40 ">
+        <div
+          className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
+        >
+          <AnimatedWords
+            title="BRIAN MCNAMARA"
+            style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
+          />
+        </div>
+      </div>
+
       <div
         className="absolute bottom-10 flex items-center 
       justify-center
@@ -87,7 +98,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Anaheim, CA.
+            Focused on interfaces and experiences, working remotely from Anaheim, United States.
           </p>
         </motion.div>
       </div>
