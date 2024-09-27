@@ -45,7 +45,7 @@ const Hero = () => {
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                className="text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
+                className="w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
                 data-blobity
                 data-blobity-radius="38"
                 data-blobity-offset-x="4"
@@ -60,7 +60,7 @@ const Hero = () => {
             aria-label="View LinkedIn Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="w-[20px] rounded-full text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
               <FontAwesomeIcon
