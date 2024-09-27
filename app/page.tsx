@@ -40,7 +40,7 @@ export default function Home() {
         <Work />
         <Reviews/>
         <About />
-        <Blog />
+        {/* <Blog /> */}
         <Contact />
         <Footer />
       </main>
