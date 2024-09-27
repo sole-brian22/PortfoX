@@ -45,7 +45,7 @@ const Hero = () => {
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                className=" w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
+                className="text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
                 data-blobity
                 data-blobity-radius="38"
                 data-blobity-offset-x="4"
@@ -65,7 +65,7 @@ const Hero = () => {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className=" w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
+                className="text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
                 data-blobity
                 data-blobity-radius="38"
                 data-blobity-offset-x="4"
