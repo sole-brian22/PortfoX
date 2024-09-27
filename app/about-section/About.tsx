@@ -24,23 +24,32 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "I am a senior front-end engineer with a strong foundation in web development, specializing in creating intuitive and responsive user interfaces for about over 10 years."
+                "I am a highly skilled Senior Full Stack Engineer with over a decade of professional experience in software development."
               }
             />
             <AnimatedBody
               text={
-                "With a keen eye for detail, I strive to build efficient and accessible web applications, constantly learning and adapting to new technologies and industry trends."
-              }
-              className={"hidden"}
-            />
-            <AnimatedBody
-              text={
-                "I possess a comprehensive skill set that spans across front-end development technologies, with proficiency in HTML, CSS, and JavaScript frameworks such as React, Next.js and Vue.js. My expertise also extends to version control systems like Git, collaborative development practices, and responsive design principles."
+                "My journey in the tech industry has been driven by a deep commitment to continuous learning and a genuine love for problem-solving."
               }
             />
             <AnimatedBody
               text={
-                "My academic experience laid the foundation for my technical skills, and I engaged in various projects that enhanced my proficiency in coding, problem-solving, and collaboration."
+                "Over the years, I have cultivated a robust understanding of both front-end and back-end technologies, allowing me to architect and deliver efficient, scalable, and user-centric web applications. My technical expertise spans a wide range of modern technologies, both on the client and server sides."
+              }
+            />
+            <AnimatedBody
+              text={
+                "On the front end, I specialize in building interactive, high-performance user interfaces using frameworks such as React, Next.js, and Vue.js, combined with JavaScript (ES6+), TypeScript, and CSS libraries like Tailwind CSS."
+              }
+            />
+            <AnimatedBody
+              text={
+                "On the back end, I’m proficient in Python-based frameworks such as Django and Flask, as well as Node.js and PHP, where I design and implement RESTful and GraphQL APIs, microservices, and secure, scalable server-side architectures."
+              }
+            />
+            <AnimatedBody
+              text={
+                "I also have experience managing databases such as PostgreSQL, MySQL, and MongoDB, ensuring optimized data flows and efficient query handling."
               }
             />
             <AnimatedBody
